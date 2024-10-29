@@ -1,11 +1,37 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin:0;
+  background-color: red;
+}
 .root {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 2rem;
+  width: 85vh;
+  max-width: 500px;
 }
+.input-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid red;
 
+}
+.list-items{
+  list-style-type: none;
+  display: flex;
+  width: 800px;
+}
+.list{
+  list-style-type: none;
+  justify-content: space-between;
+  width: 100%;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -16,4 +42,10 @@
 .logo:hover {
   filter: drop-shadow(0 0 2em #fecf40);
   transform: scale(0.98);
+}
+button{
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
 }
